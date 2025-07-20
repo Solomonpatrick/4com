@@ -1,0 +1,58 @@
+{
+  "searchTests": [
+    {
+      "searchTerm": "Top",
+      "expectedCount": 14,
+      "description": "Clothing tops"
+    },
+    {
+      "searchTerm": "Dress",
+      "expectedCount": 9,
+      "description": "Women's dresses"
+    },
+    {
+      "searchTerm": "Shirt",
+      "expectedCount": 13,
+      "description": "Various shirts"
+    },
+    {
+      "searchTerm": "Jeans",
+      "expectedCount": 3,
+      "description": "Denim jeans"
+    },
+    {
+      "searchTerm": "Tshirt",
+      "expectedCount": 6,
+      "description": "T-shirts"
+    },
+    {
+      "searchTerm": "Saree",
+      "expectedCount": 3,
+      "description": "Traditional sarees"
+    },
+    {
+      "searchTerm": "Blue",
+      "expectedCount": 6,
+      "description": "Blue colored items"
+    },
+    {
+      "searchTerm": "Cotton",
+      "expectedCount": 4,
+      "description": "Cotton products"
+    }
+  ],
+  "categoryTests": [
+    {
+      "category": "Women",
+      "expectedProducts": 15
+    },
+    {
+      "category": "Men",
+      "expectedProducts": 12
+    },
+    {
+      "category": "Kids",
+      "expectedProducts": 7
+    }
+  ]
+} 

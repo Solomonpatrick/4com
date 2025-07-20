@@ -330,13 +330,13 @@ jobs:
 
 ### Common Issues
 
-| Problem | Solution |
-|---------|----------|
-| `Configuration file not found` | Ensure `appsettings.json` is copied to output directory |
-| `Browser not found` | Run `pwsh bin/Debug/net8.0/playwright.ps1 install` |
-| `Tests timeout` | Check `DefaultTimeout` in configuration or network connection |
-| `Element not found` | Verify selectors in `appsettings.json` match current website |
-| `Port already in use` | Kill existing browser processes |
+| Problem                        | Solution                                                      |
+|---------                       |----------                                                     |
+| `Configuration file not found` | Ensure `appsettings.json` is copied to output directory       |
+| `Browser not found`            | Run `pwsh bin/Debug/net8.0/playwright.ps1 install`            |
+| `Tests timeout`                | Check `DefaultTimeout` in configuration or network connection |
+| `Element not found`            | Verify selectors in `appsettings.json` match current website  |
+| `Port already in use`          | Kill existing browser processes                               |
 
 ### Debug Options
 ```powershell
@@ -411,7 +411,6 @@ var searchData = TestDataFactory.GetSearchDataForEnvironment(
 
 ## Resources
 
-- **[Configuration Guide](./Configuration-README.md)** - Detailed configuration documentation
 - **[Test Summary Report](./TestSummaryReport.md)** - Executive overview and metrics
 - **[Interview Preparation](./InterviewPreparation.md)** - Technical deep dive
 - **[Bug Reports](./BugReports/)** - Known issues and solutions
@@ -426,13 +425,6 @@ var searchData = TestDataFactory.GetSearchDataForEnvironment(
 - **FluentAssertions** 6.12.0 - Test assertions
 - **ExtentReports** 5.0.1 - HTML reporting
 - **Bogus** 35.4.0 - Test data generation
-
-## Support
-
-- **Issues**: [GitHub Issues](https://github.com/your-repo/issues)
-- **Configuration Help**: See `Configuration-README.md`
-- **Discussions**: [GitHub Discussions](https://github.com/your-repo/discussions)
-
 ---
 
 **🎯 Key Achievement:** This framework demonstrates enterprise-level configuration management with zero hardcoded values, making it highly maintainable and environment-flexible.
